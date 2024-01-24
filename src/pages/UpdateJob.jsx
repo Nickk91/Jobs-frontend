@@ -37,7 +37,7 @@ const UpdateJob = () => {
     data.skills = selectedOption;
     // console.log(data)
     // update the book object
-    fetch(`${import.meta.env.VITE_BACK_END}/${id}`, {
+    fetch(`${import.meta.env.VITE_REACT_APP_BACK_END}/${id}`, {
       method: "PATCH",
 
       headers: {

@@ -41,7 +41,7 @@ const MyJobs = () => {
   };
 
   const handleDelete = (id) => {
-    fetch(`${import.meta.env.VITE_BACK_END}/job/${id}`, {
+    fetch(`${import.meta.env.VITE_REACT_APP_BACK_END}/job/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())

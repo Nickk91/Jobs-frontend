@@ -138,7 +138,7 @@ const Login = () => {
           </div>
         </form>
         <p className="text-center text-gray-500 text-xs">
-          &copy;2023 JobPortal. All rights reserved.
+          &copy;2024 JobPortal. All rights reserved.
         </p>
       </div>
     </div>

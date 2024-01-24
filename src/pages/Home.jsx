@@ -15,7 +15,7 @@ const Home = () => {
 
   useEffect(() => {
     setIsLoading(true);
-    fetch(`${import.meta.env.VITE_BACK_END}/all-jobs`)
+    fetch(`${import.meta.env.VITE_REACT_APP_BACK_END}/all-jobs`)
       .then((res) => res.json())
       .then((data) => {
         setJobs(data);
